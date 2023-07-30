@@ -13,3 +13,8 @@ I conducted an experiment to optimize the neural network architecture by adding 
 #### the highes sore in kaggle leaderboard is 0.80977, I got 0.76348.
 #### I am ranked 4170, in total of 6,003 competitors
 ##  Possible improvement
+Base on the category of data (D_* = Delinquency variables
+S_* = Spend variables
+P_* = Payment variables
+B_* = Balance variables
+R_* = Risk variables)
