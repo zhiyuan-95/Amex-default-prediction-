@@ -7,4 +7,4 @@ The objective of this competition is to predict the probability that a customer 
 ## Approach
 #### data restructure
 Each customer's data includes 18 months of bank statements, meaning there are 18 entries with the same customer_ID and target. To explore the statistics of a single customer's bank statements over these 18 months, I utilized the describe() method in a pandas dataframe. This method provides statistical values such as count, mean, standard deviation, minimum, 25th percentile, 50th percentile (median), 75th percentile, and maximum for each column in the dataset. so that the original of 190 columns expanded to 1504 columns, 18 entries for a single customer_ID and target combined to a unique entry by this way. 
-#### preprocess
+#### training
