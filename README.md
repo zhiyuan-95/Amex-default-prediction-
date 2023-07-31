@@ -11,7 +11,7 @@ Each customer's data includes 18 months of bank statements, meaning there are 18
 #### training
 I conducted an experiment to optimize the neural network architecture by adding 2, 3, and 4 layers, respectively. For each layer configuration, I used random search to find the optimal number of dense units for each layer and the best activation function. Specifically, I performed 100 trials for 2 layers, 200 trials for 3 layers, and 300 trials for 4 layers. Each trial was executed three times to ensure consistency and reliability of the results.
 ## Result
-#### the highes sore in kaggle leaderboard is 0.80977, I got 0.76348.
+#### the highest score in kaggle leaderboard is 0.80977, I got 0.76348.
 #### I am ranked 4170, in total of 6,003 competitors
 ##  Possible improvement
 Base on the category of data (D_* = Delinquency variables, S_* = Spend variables,P_* = Payment variables,B_* = Balance variables,R_* = Risk variables) train a smaller model for each categoral, and stack each model together to make the final model to make the final prediction. However, I realized that this approach would likely demand significant time and computational resources which I can not afford. As a result, I opted for a more straightforward model.
